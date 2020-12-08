@@ -2,17 +2,17 @@ import webbrowser
 import os
 
 
-print('If you have multiple Google Accounts this is meant for you.')
+print('This only works if you have multiple google accounts.')
 os.title('Google Classroom Selector')
 print('')
 os.system('pause')
-print('[1] Default User / First Google Account Signed In')
+print('[1] First Google Account Signed In / Default User')
 print('')
-print('[2] Second User / Second Google Account Signed In')
+print('[2] Second Google Account Signed In')
 print('')
-print('[3] Third User / Third Google Account Signed In')
+print('[3] Third Google Account Signed In')
 print('')
-print('[4] Fourth User / Fourth Google Account Signed In')
+print('[4] Fourth Google Account Signed In')
 print('')
 choice = int(input())
 
